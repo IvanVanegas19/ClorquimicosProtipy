@@ -104,13 +104,12 @@ article .big-img img {
     margin-right: 1rem;
 }
 
-footer {
+.fort1 {
     background-color: #00102E;
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
 }
 
 
@@ -126,14 +125,60 @@ footer {
 div .horario {
     color: white;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: nowrap;
+    padding: 20px;
 }
 
 div .datos {
     color: white;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-between;
+    padding: 20px;
+}
+
+.clorqui {
+    color: white;
+    text-align: center;
+}
+
+li>img {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.datos>li {
+    margin: 10px;
+}
+
+.img-fondo {
+    width: 100vw;
+}
+
+.fort2 {
+    background-color: #00102E;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+
+.footer3 {
+    display: flex;
+}
+
+.footer5>a {
+    flex-direction: row;
+    display: inline-block;
+    position: relative;
+    left: 350px;
+}
+
+div .text-copy {
+    color: white;
+    align-self: flex-start;
+    position: relative;
+    right: 350px;
 }
